@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact - Ta Boutique Digital</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f6f1eb;
+            /* Creamy Off-white */
+            color: #4b3b2b;
+            /* Dark Mocha Brown */
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
+        
+        main {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 2.5rem;
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(75, 59, 43, 0.15);
+            text-align: center;
+        }
+        
+        h1 {
+            color: #6e4b3a;
+            /* Deep Coffee Brown */
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        
+        p {
+            font-weight: 400;
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            line-height: 1.5;
+        }
+        
+        .contact-info {
+            font-size: 1.25rem;
+            margin-bottom: 2.5rem;
+            line-height: 1.6;
+        }
+        
+        .contact-info a {
+            color: #c7976b;
+            /* Warm Caramel */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .contact-info a:hover {
+            color: #6e4b3a;
+            /* Deep Coffee Brown */
+        }
+        
+        a.email-btn {
+            display: inline-block;
+            background: #c7976b;
+            color: white;
+            text-decoration: none;
+            padding: 1rem 3rem;
+            border-radius: 35px;
+            font-weight: 700;
+            font-size: 1.3rem;
+            box-shadow: 0 10px 30px rgba(199, 151, 107, 0.6);
+            transition: background-color 0.3s ease;
+        }
+        
+        a.email-btn:hover {
+            background: #6e4b3a;
+        }
+        
+        button.back {
+            margin-top: 3rem;
+            background: transparent;
+            border: 2px solid #c7976b;
+            color: #c7976b;
+            padding: 0.8rem 3rem;
+            border-radius: 35px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        button.back:hover {
+            background-color: #6e4b3a;
+            color: white;
+            border-color: #6e4b3a;
+        }
+        
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2.4rem;
+            }
+            .contact-info {
+                font-size: 1.1rem;
+            }
+            a.email-btn {
+                font-size: 1.1rem;
+                padding: 0.8rem 2.5rem;
+            }
+            button.back {
+                padding: 0.7rem 2.5rem;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <h1>Contactez Ta Boutique Digital</h1>
+        <p>Vous souhaitez créer un site web professionnel et performant ? Contactez-nous !</p>
+        <div class="contact-info">
+            📧 Email : <a href="mailto:mohamedrauyl56@gmail.com">mohamedrauyl56@gmail.com</a><br /> 📞 Téléphone : <a href="tel:+21629337721">+216 29 337 721</a>
+        </div>
+        <button class="back" onclick="location.href='index.html'">← Retour à l'accueil</button>
+    </main>
+
+</body>
+
+</html>

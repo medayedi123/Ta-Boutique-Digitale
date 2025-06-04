@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nos Services - Ta Boutique Digital</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f6f1eb;
+            /* Creamy Off-white */
+            color: #4b3b2b;
+            /* Dark Mocha Brown */
+            padding: 2rem 1rem;
+            min-height: 100vh;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        header h1 {
+            font-size: 3rem;
+            color: #6e4b3a;
+            /* Deep Coffee Brown */
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        
+        header p {
+            font-weight: 400;
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.4;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 900px;
+            margin: 3rem auto 0;
+        }
+        
+        .feature {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 8px 25px rgba(75, 59, 43, 0.12);
+            transition: transform 0.3s ease;
+            color: #4b3b2b;
+        }
+        
+        .feature:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 35px rgba(110, 75, 58, 0.3);
+        }
+        
+        .feature img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 15px rgba(199, 151, 107, 0.4);
+        }
+        
+        .feature h3 {
+            margin-bottom: 0.6rem;
+            color: #c7976b;
+            /* Warm Caramel */
+        }
+        
+        .feature p {
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+        
+        button.back {
+            background: transparent;
+            border: 2px solid #c7976b;
+            color: #c7976b;
+            padding: 0.8rem 3rem;
+            border-radius: 35px;
+            font-weight: 700;
+            cursor: pointer;
+            display: block;
+            margin: 3rem auto 0;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        button.back:hover {
+            background-color: #c7976b;
+            color: white;
+        }
+        
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 2.4rem;
+            }
+            header p {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Nos Services</h1>
+        <p>Découvrez les prestations que nous proposons pour sublimer votre présence en ligne.</p>
+    </header>
+
+    <div class="features">
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=80&q=80" alt="Design sur mesure" />
+            <h3>Design sur mesure</h3>
+            <p>Création d’un site unique adapté à votre identité visuelle pour impressionner vos clients.</p>
+        </div>
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=80&q=80" alt="Responsive" />
+            <h3>Responsive & Mobile</h3>
+            <p>Sites web optimisés pour tous les écrans : smartphone, tablette et ordinateur.</p>
+        </div>
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981d?auto=format&fit=crop&w=80&q=80" alt="Performance" />
+            <h3>Performance & Rapidité</h3>
+            <p>Expérience utilisateur fluide grâce à des sites rapides et bien optimisés.</p>
+        </div>
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=80&q=80" alt="Support" />
+            <h3>Support & Maintenance</h3>
+            <p>Assistance continue pour assurer la sécurité et la pérennité de votre site.</p>
+        </div>
+    </div>
+
+    <button class="back" onclick="location.href='index.html'">← Retour à l'accueil</button>
+
+</body>
+
+</html>
